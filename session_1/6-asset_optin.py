@@ -41,7 +41,7 @@ def main() :
     # build unsigned transaction
     params = algod_client.suggested_params()
     sender = addr2
-    index = get_asset_index(default_index = 2) # ensure this matches the asset-index returned by asset_create.py
+    index = get_asset_index(default_index = 3) # ensure this matches the asset-index returned by asset_create.py
     unsigned_txn = transaction.AssetOptInTxn(sender, params, index)
     
     # sign transaction

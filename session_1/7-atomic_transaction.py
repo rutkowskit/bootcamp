@@ -14,7 +14,7 @@ kmd_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 algod_address = "http://localhost:4001"
 algod_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     
-def get_asset_index(default_index = 2):
+def get_asset_index(default_index = 3):
     # try to read the asset index from our environment file
     try:
         index = int(open('asset.index', 'r').readline())
